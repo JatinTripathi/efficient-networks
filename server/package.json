@@ -1,0 +1,23 @@
+{
+  "name": "efficient-networks",
+  "version": "1.0.0",
+  "description": "A Websocket, MQTT, Thrift network project using Docker's bridge network driver.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JatinTripathi/efficient-networks.git"
+  },
+  "author": "JatinTripathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JatinTripathi/efficient-networks/issues"
+  },
+  "homepage": "https://github.com/JatinTripathi/efficient-networks#readme",
+  "dependencies": {
+    "ws": "^1.1.0"
+  }
+}
